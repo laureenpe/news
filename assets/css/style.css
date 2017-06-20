@@ -21,6 +21,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: white;
+    border-bottom: 1px solid #E14B4D;;
+    text-transform: uppercase;
+
 }
 
 li {
@@ -33,21 +36,26 @@ li a {
     text-align: center;
     padding: 14px 38px;
     text-decoration: none;
+    font-size: 15px;
+
 }
 
+
 li a:hover {
-    background-color: #E14B4D;;
+    border-bottom: 4px solid #E14B4D;
+     text-decoration: none;
+
 }
 .menu button{
     background-color: #E14B4D;
     color: white;
     padding-bottom: 7px;
-    margin-top: 11px;
-    margin-left: 8%;
+    margin-top: 1px;
     border-radius: 3px;
     padding-right: 20px;
     padding-left: 20px;
-    border: 1px solid #E14B4D;;
+    border: none;
+
 }
  .icon{
     text-align: center;
@@ -55,6 +63,92 @@ li a:hover {
     margin-top: 4px;
 }
 .menu{
-    margin-left: 40px;
+    margin-left: 10px;
     padding-left: 20px;
+}
+
+/*SECOND SECTION PHOTOS*/
+.woman1{
+    width: 100%;
+}
+.margins img{
+    margin: 0;
+}
+.photos{
+    margin-top: 20px;
+}
+
+.image-one{
+    background-image: url(../img/1.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 514px;
+}
+.photos span{
+    background-color: #E14B4D;
+    color: white;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    margin-bottom: 1px;
+
+
+}
+.image-two{
+    background-image: url(../img/6.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 317px;
+}
+
+/*GEOLOCATION*/
+.geolocation{
+    padding-top: 30px;
+}
+#map{
+    border: 2px solid black;
+    height: 100vh;
+}
+.geolocation span{
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+label{
+    margin-top: 20px;
+    color: #E14B4D;
+
+}
+.encuentrame{
+    border-bottom: 1px solid #E14B4D;
+
+}
+span:hover{
+        border-bottom: 2px solid #E14B4D;
+
+
+}
+/*BUTTONS*/
+#route{
+margin-top: 41px;
+text-align: center;
+background-color: #E14B4D;
+color: white;
+border: none;
+border-radius: 10px;
+padding-right: 30px;
+padding-left: 30px;
+padding-bottom: 20px;
+padding-top: 20px;
+width: 100%;    
+
+
+
 }
