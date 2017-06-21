@@ -44,7 +44,7 @@ li a {
 
 li a:hover {
     border-bottom: 4px solid #E14B4D;
-     text-decoration: none;
+    text-decoration: none;
 
 }
 .menu button{
@@ -152,5 +152,30 @@ padding-top: 20px;
 width: 100%;    
 
 
+
+}
+
+/*news*/
+.popular-news{
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+.popular-news li {
+        list-style-type: none;
+
+        
+}
+.popular-news a{
+            text-decoration: none;
+            color: black;
+
+}
+.popular-news li:hover{
+    border-bottom: 4px solid #E14B4D;
+
+
+}
+.border-news{
+border-bottom: 1px solid #E14B4D;
 
 }
